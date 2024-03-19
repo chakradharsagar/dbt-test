@@ -1,0 +1,12 @@
+
+version: 2
+
+sources:
+    - name: democlient_tf
+      description: Demo for a TF script
+      database: "RAW_DATA"
+      schema: "TEST_DBT"
+      tables:
+          - name: CUSTOMER
+          - name: ORDERS
+

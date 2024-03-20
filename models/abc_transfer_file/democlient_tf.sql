@@ -10,4 +10,4 @@ with source_data as (
 )
 
 select *
-from source_data limit 100
+from source_data limit 1000
